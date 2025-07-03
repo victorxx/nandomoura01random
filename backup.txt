@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecionando...</title>
+  <meta name="robots" content="noindex,nofollow">
+  <script>
+    // Array de links para redirecionamento
+    const links = [
+      "https://www.youtube.com/watch?v=zjF_yzaEN9I&t=23s",
+      "https://www.youtube.com/watch?v=JbWY7nvpBA0",
+      "https://www.youtube.com/watch?v=qLsURrNcdf8",
+      "https://www.youtube.com/@byclixmidia1008",
+      "https://www.youtube.com/@gamenologia",
+      "https://brasilbrasileiross.blogspot.com/",
+      "https://geocredibnkvitoria.com/",
+      "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+      "https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/",
+      "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g",
+      "https://hostinger.com.br/?REFERRALCODE=1VICTOR444",
+      "https://www.youtube.com/watch?v=3yVwyfsq7ZQ"
+
+    ];
+
+    // Escolhe aleatoriamente um link do array
+    const destino = links[Math.floor(Math.random() * links.length)];
+
+    // Redireciona automaticamente
+    window.location.href = destino;
+  </script>
+</head>
+<body>
+  <p>Redirecionando... Se não for redirecionado, <a id="fallback" href="#">clique aqui</a>.</p>
+  <script>
+    // Atualiza o link de fallback
+    document.getElementById("fallback").href = destino;
+  </script>
+</body>
+</html>
